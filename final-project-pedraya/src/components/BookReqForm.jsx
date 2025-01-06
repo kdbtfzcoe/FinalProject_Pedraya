@@ -1,4 +1,3 @@
-import  "./BookReqForm.css";
 import React, { useState } from "react";
 
 const BookReqForm = () => {
@@ -48,7 +47,8 @@ const BookReqForm = () => {
     };
 
 return (
-    <div className="form-container">
+    
+    <section className="form-section">
         <div className="form-card">
             <h1>Book Request Form</h1>
             <p>Fill out the details below to request your desired book</p>
@@ -184,7 +184,9 @@ return (
                 <button type="submit" className="Submit-Button">Submit</button>
             </form>
         </div>
-    </div>
+
+    </section>
+
 );
     
 };

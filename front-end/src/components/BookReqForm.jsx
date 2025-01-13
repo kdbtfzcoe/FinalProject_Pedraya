@@ -45,7 +45,7 @@ const BookReqForm = () => {
             
         if (response.ok) {
             const data = await response.json();
-            console.log('Submission successful:', data);
+            console.log('Submitted Form:', data);
             // Reset the form after successful submission
             setFormData({
                 name: "",
